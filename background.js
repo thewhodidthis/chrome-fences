@@ -44,7 +44,7 @@ const setup = (from = chrome.runtime.getURL(extra)) => fetch(from)
 chrome.runtime.onInstalled.addListener(() => {
   // Retrieve options from store
   chrome.storage.sync.get(['list'], ({ list }) => {
-    if (list && Object.keys(list).length) {
+    if (list) {
       strap(list.join('\n'))
     } else {
       const from = 'https://gist.githubusercontent.com/thewhodidthis/55df956812fedff1443b510179551954/raw'
