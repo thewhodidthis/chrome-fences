@@ -1,0 +1,35 @@
+{
+  "name": "Fences",
+  "short_name": "fences",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "description": "Helps block remote scripts (coinhive)",
+  "homepage_url": "https://githun.com/thewhodidthis/chrome-fences",
+  "minimum_chrome_version": "61",
+  "icons": {
+    "16": "assets/icon.png",
+    "32": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon":  "assets/icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
+}

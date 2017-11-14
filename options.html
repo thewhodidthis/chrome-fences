@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="data:image/x-icon;base64,iVBORw0KGgo=">
+    <title>Fences options</title>
+    <style>
+      body {
+        margin: 0.75rem;
+      }
+
+      p {
+        margin: 0.75rem 0 0;
+      }
+
+      span {
+        display: inline-block;
+        line-height: 1;
+      }
+
+      small {
+        color: #aaa;
+        display: inline-block;
+        font-size: 9px;
+        line-height: 1.25;
+      }
+
+      form {
+        overflow: hidden;
+        width: 100%;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      label span {
+        vertical-align: middle;
+      }
+
+      textarea {
+        box-sizing: border-box;
+        font: 0.6875rem/1.5 'Menlo', 'Andale Mono', 'Courier New', monospace;
+        max-width: 30rem;
+        width: 100%;
+      }
+
+      .flash {
+        color: #999;
+        max-width: 200px;
+        overflow: hidden;
+        padding-left: 0.25rem;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <div>
+        <label>
+          <textarea id="input" placeholder="eg. *://coinhive.com/lib*" rows="13" wrap="off"></textarea>
+          <div>
+            <span>Block scripts from these sources <small>one per line pls</small></span>
+          </div>
+        </label>
+      </div>
+      <div>
+        <p>
+          <input id="store" type="button" value="Save" />
+          <input id="reset" type="button" value="Reset" />
+          <span id="flash" class="flash"></span>
+        </p>
+      </div>
+    </form>
+
+    <script src="/options.js"></script>
+  </body>
+</html>
