@@ -1,2 +1,2 @@
 ## Fences
-> Helps block coinhive and other harmful scripts / [Add to Chrome](https://chrome.google.com/webstore/detail/fences/jchogmppohphjnhihjojamlngjegoiia) &rarr;
+> UI-less blacklist-editable [NoCoin](https://github.com/keraf/NoCoin) sub / [Add to Chrome](https://chrome.google.com/webstore/detail/fences/jchogmppohphjnhihjojamlngjegoiia) &rarr;
