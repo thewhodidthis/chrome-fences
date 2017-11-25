@@ -1,6 +1,6 @@
 {
   "name": "chrome-fences",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helps block remote scripts (coinhive)",
   "main": "background.js",
   "homepage": "https://githun.com/thewhodidthis/chrome-fences",
