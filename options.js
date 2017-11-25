@@ -1,4 +1,4 @@
-((window, document) => {
+(() => {
   const pieces = 'flash,input,reset,store'.split(',')
   const gather = (o, k) => Object.assign(o, { [k]: document.getElementById(k) })
 
@@ -45,4 +45,4 @@
       })
     })
   })
-})(window, document)
+})()
