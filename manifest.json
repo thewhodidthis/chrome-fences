@@ -1,7 +1,7 @@
 {
   "name": "Fences",
   "short_name": "fences",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Helps block remote scripts (coinhive)",
   "homepage_url": "https://githun.com/thewhodidthis/chrome-fences",
