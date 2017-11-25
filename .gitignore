@@ -1,3 +1,8 @@
-dist/*
-certs/*
-node_modules/*
+.DS_Store
+*.crx
+*.pem
+*.zip
+*.log
+*.idraw
+node_modules
+dist
