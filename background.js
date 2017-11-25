@@ -1,5 +1,5 @@
 const block = ({ tabId }) => {
-  chrome.browserAction.setIcon({ tabId, path: 'assets/icon-hi.png' })
+  chrome.browserAction.setIcon({ tabId, path: 'assets/icon-x.png' })
 
   return { cancel: true }
 }
@@ -13,9 +13,9 @@ const strap = (list = '') => {
   }
 }
 
-const extra = 'blacklist.txt'
+const extra = chrome.runtime.getURL('blacklist.txt')
 
-const setup = (from = chrome.runtime.getURL(extra)) => fetch(from)
+const setup = (from = extra) => fetch(from)
   .then((response) => {
     if (response.status !== 200) {
       throw Error('HTTP error')
